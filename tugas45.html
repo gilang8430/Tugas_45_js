@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Belajar javascript</title>
+  </head>
+  <body>
+    <p id="href">lokasi file</p>
+    <button onclick="lokasi()">klik</button>
+    <script type="text/javascript">
+      function lokasi(){
+        var a = location.href;
+        document.getElementById("href").innerHTML = a;
+      }
+    </script>
+  </body>
+</html>
